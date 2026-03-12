@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GV Web Solutions – Custom Website Development for Businesses by Gaurav Verma. Professional, fast, SEO-friendly websites that convert visitors into clients." />
+  <meta name="keywords" content="web development, custom website, business website, ecommerce, SEO, Gaurav Verma, GV Web Solutions" />
+  <meta name="author" content="Gaurav Verma" />
+  <meta property="og:title" content="GV Web Solutions – Professional Website Development" />
+  <meta property="og:description" content="Custom website development for businesses. Built to convert, designed to impress." />
+  <meta property="og:type" content="website" />
+  <title>GV Web Solutions | Professional Website Development</title>
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      <span class="brand-icon"><i class="fa-solid fa-code"></i></span>
+      <span class="brand-text">GV <span class="accent">Web</span> Solutions</span>
+    </a>
+
+    <div class="nav-controls d-flex align-items-center gap-2 d-lg-none">
+      <button class="theme-toggle-btn" id="themeToggleMobile" title="Toggle Theme">
+        <i class="fa-solid fa-moon" id="themeIconMobile"></i>
+      </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="toggler-bar"></span><span class="toggler-bar"></span><span class="toggler-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto gap-0">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <div class="d-flex align-items-center gap-2">
+        <button class="theme-toggle-btn d-none d-lg-flex" id="themeToggle" title="Toggle Theme">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <div class="color-switcher-wrap d-none d-xl-flex">
+          <button class="color-switcher-btn" id="colorSwitcherBtn" title="Color Theme">
+            <i class="fa-solid fa-palette"></i>
+          </button>
+          <div class="color-options" id="colorOptions">
+            <span class="color-dot active" data-color="#00f5c8" style="background:#00f5c8"></span>
+            <span class="color-dot" data-color="#ff6b6b" style="background:#ff6b6b"></span>
+            <span class="color-dot" data-color="#7c6cf8" style="background:#7c6cf8"></span>
+            <span class="color-dot" data-color="#ffd166" style="background:#ffd166"></span>
+            <span class="color-dot" data-color="#06d6a0" style="background:#06d6a0"></span>
+          </div>
+        </div>
+        <a href="#contact" class="btn-primary-gv nav-cta-btn">Get Free Quote</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero-section">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="container">
+    <div class="row align-items-center hero-row">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="hero-badge mb-4">
+          <i class="fa-solid fa-bolt"></i> Available for New Projects
+        </div>
+        <h1 class="hero-headline">
+          Professional <span class="text-accent">Website Development</span> for Your Business
+        </h1>
+        <p class="hero-sub mt-4">
+          We craft high-performance, SEO-optimized websites that turn visitors into loyal customers. From startups to enterprises — your digital success starts here.
+        </p>
+        <div class="hero-ctas mt-5 d-flex flex-wrap gap-3">
+          <a href="#contact" class="btn-primary-gv btn-lg-gv">
+            <i class="fa-solid fa-paper-plane me-2"></i> Get Free Quote
+          </a>
+          <a href="#portfolio" class="btn-outline-gv btn-lg-gv">
+            <i class="fa-solid fa-eye me-2"></i> View Portfolio
+          </a>
+        </div>
+        <div class="trust-badges mt-5 d-flex flex-wrap gap-3 align-items-center">
+          <div class="trust-badge"><i class="fa-solid fa-star text-accent"></i> 5.0 Rating</div>
+          <div class="trust-badge"><i class="fa-solid fa-users text-accent"></i> 120+ Clients</div>
+          <div class="trust-badge"><i class="fa-solid fa-globe text-accent"></i> 200+ Projects</div>
+          <div class="trust-badge"><i class="fa-solid fa-shield-halved text-accent"></i> 100% Secure</div>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
+        <div class="hero-illustration">
+          <div class="hero-mockup">
+            <div class="mockup-browser">
+              <div class="browser-bar">
+                <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                <div class="browser-url"><i class="fa-solid fa-lock"></i> gvwebsolutions.in</div>
+              </div>
+              <div class="browser-body">
+                <div class="browser-line w-75 mb-2"></div>
+                <div class="browser-line w-50 mb-3"></div>
+                <div class="browser-card-row">
+                  <div class="browser-card accent-card"></div>
+                  <div class="browser-card"></div>
+                  <div class="browser-card"></div>
+                </div>
+                <div class="browser-line w-100 mt-3 mb-2"></div>
+                <div class="browser-line w-80 mb-2"></div>
+                <div class="browser-line w-60 mb-3"></div>
+                <div class="browser-img-placeholder">
+                  <i class="fa-solid fa-image"></i>
+                </div>
+              </div>
+            </div>
+            <div class="floating-card card-1" data-aos="zoom-in" data-aos-delay="800">
+              <i class="fa-solid fa-chart-line text-accent"></i>
+              <div><strong>+240%</strong><small>Traffic Growth</small></div>
+            </div>
+            <div class="floating-card card-2" data-aos="zoom-in" data-aos-delay="1000">
+              <i class="fa-solid fa-check-circle text-accent"></i>
+              <div><strong>Delivered</strong><small>On Time</small></div>
+            </div>
+            <div class="floating-card card-3" data-aos="zoom-in" data-aos-delay="1200">
+              <i class="fa-solid fa-star text-accent"></i>
+              <div><strong>5.0</strong><small>Client Rating</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <span>Scroll Down</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section-pad">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="about-image-wrap">
+          <div class="about-img-inner">
+            <div class="about-avatar">
+              <i class="fa-solid fa-user-tie"></i>
+            </div>
+            <div class="about-exp-badge">
+              <strong>5+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div class="about-stats-grid">
+              <div class="astat"><span class="astat-num">200+</span><span class="astat-label">Projects</span></div>
+              <div class="astat"><span class="astat-num">120+</span><span class="astat-label">Clients</span></div>
+              <div class="astat"><span class="astat-num">15+</span><span class="astat-label">Industries</span></div>
+              <div class="astat"><span class="astat-num">99%</span><span class="astat-label">Satisfaction</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7" data-aos="fade-left" data-aos-delay="150">
+        <div class="section-tag">About Us</div>
+        <h2 class="section-title">We Build Websites That <span class="text-accent">Drive Results</span></h2>
+        <p class="section-body mt-3">
+          Hi, I'm <strong>Gaurav Verma</strong>, founder of GV Web Solutions. With over 5 years of hands-on experience in web development, I specialize in building custom, high-performance websites tailored to each client's unique business needs.
+        </p>
+        <p class="section-body">
+          From small business sites to full-scale ecommerce platforms, every project is crafted with precision, optimized for search engines, and built to convert. I believe a great website is your most powerful sales tool.
+        </p>
+        <div class="about-skills mt-4">
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>Web Development</span><span>95%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>UI/UX Design</span><span>88%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-label"><span>SEO Optimization</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+        </div>
+        <div class="about-techs mt-4 d-flex flex-wrap gap-2">
+          <span class="tech-tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+          <span class="tech-tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+          <span class="tech-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+          <span class="tech-tag"><i class="fa-brands fa-react"></i> React</span>
+          <span class="tech-tag"><i class="fa-brands fa-wordpress"></i> WordPress</span>
+          <span class="tech-tag"><i class="fa-brands fa-php"></i> PHP</span>
+          <span class="tech-tag"><i class="fa-solid fa-database"></i> MySQL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section id="services" class="section-pad section-alt">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-tag">What We Offer</div>
+      <h2 class="section-title">Our <span class="text-accent">Services</span></h2>
+      <p class="section-sub">Everything you need to build a powerful online presence</p>
+    </div>
+    <div class="row g-4">
+      <!-- Service Cards -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card">
+          <div class="service-icon-wrap"><i class="fa-solid fa-briefcase"></i></div>
+          <h4>Business Website Development</h4>
+          <p>Professional corporate websites that establish credibility, showcase your brand, and generate leads 24/7.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="service-hover-bg"></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card">
+          <div class="service-icon-wrap"><i class="fa-solid fa-cart-shopping"></i></div>
+          <h4>Ecommerce Website Development</h4>
+          <p>Feature-rich online stores with secure payment integration, inventory management, and seamless checkout flows.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="service-hover-bg"></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <div class="service-icon-wrap"><i class="fa-solid fa-user-circle"></i></div>
+          <h4>Portfolio Website Development</h4>
+          <p>Stunning personal portfolios for freelancers, designers, and creatives that highlight your best work.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="service-hover-bg"></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card">
+          <div class="service-icon-wrap"><i class="fa-solid fa-rocket"></i></div>
+          <h4>Landing Page Development</h4>
+          <p>High-converting, laser-focused landing pages optimized for campaigns, product launches, and lead capture.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="service-hover-bg"></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card">
+          <div class="service-icon-wrap"><i class="fa-solid fa-rotate"></i></div>
+          <h4>Website Redesign</h4>
+          <p>Transform your outdated website into a modern, fast, and visually compelling digital experience.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="service-hover-bg"></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <div class="service-icon-wrap"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+          <h4>SEO Optimized Websites</h4>
+          <p>Websites built with SEO best practices from the ground up — fast, structured, and ready to rank on Google.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="service-hover-bg"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTFOLIO ===== -->
+<section id="portfolio" class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-tag">Our Work</div>
+      <h2 class="section-title">Recent <span class="text-accent">Projects</span></h2>
+      <p class="section-sub">A selection of our finest work across industries</p>
+    </div>
+    <!-- Filter Buttons -->
+    <div class="portfolio-filters text-center mb-5" data-aos="fade-up" data-aos-delay="100">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="business">Business</button>
+      <button class="filter-btn" data-filter="ecommerce">Ecommerce</button>
+      <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+      <button class="filter-btn" data-filter="landing">Landing Pages</button>
+    </div>
+    <!-- Portfolio Grid -->
+    <div class="row g-4" id="portfolioGrid">
+      <div class="col-md-6 col-lg-4 portfolio-item" data-category="business" data-aos="zoom-in" data-aos-delay="0">
+        <div class="portfolio-card">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
+            <div class="pthumb-icon"><i class="fa-solid fa-building"></i></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Business</span>
+            <h5>TechCorp Solutions</h5>
+            <a href="#" class="portfolio-preview-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Preview</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 portfolio-item" data-category="ecommerce" data-aos="zoom-in" data-aos-delay="100">
+        <div class="portfolio-card">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #0f3460, #533483);">
+            <div class="pthumb-icon"><i class="fa-solid fa-store"></i></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Ecommerce</span>
+            <h5>ShopEase Online Store</h5>
+            <a href="#" class="portfolio-preview-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Preview</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 portfolio-item" data-category="portfolio" data-aos="zoom-in" data-aos-delay="200">
+        <div class="portfolio-card">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #1b4332, #40916c);">
+            <div class="pthumb-icon"><i class="fa-solid fa-palette"></i></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Portfolio</span>
+            <h5>Arti Design Portfolio</h5>
+            <a href="#" class="portfolio-preview-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Preview</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 portfolio-item" data-category="landing" data-aos="zoom-in" data-aos-delay="0">
+        <div class="portfolio-card">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #7b2d00, #c85c00);">
+            <div class="pthumb-icon"><i class="fa-solid fa-bullseye"></i></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Landing Page</span>
+            <h5>SaaS Product Launch</h5>
+            <a href="#" class="portfolio-preview-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Preview</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 portfolio-item" data-category="business" data-aos="zoom-in" data-aos-delay="100">
+        <div class="portfolio-card">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #023047, #219ebc);">
+            <div class="pthumb-icon"><i class="fa-solid fa-hospital"></i></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Business</span>
+            <h5>MediCare Clinic Website</h5>
+            <a href="#" class="portfolio-preview-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Preview</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 portfolio-item" data-category="ecommerce" data-aos="zoom-in" data-aos-delay="200">
+        <div class="portfolio-card">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #3d0066, #9b00d9);">
+            <div class="pthumb-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Ecommerce</span>
+            <h5>LuxeBoutique Fashion</h5>
+            <a href="#" class="portfolio-preview-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Preview</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5" data-aos="fade-up">
+      <a href="#contact" class="btn-outline-gv">View All Projects <i class="fa-solid fa-arrow-right ms-2"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRICING ===== -->
+<section id="pricing" class="section-pad section-alt">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-tag">Investment</div>
+      <h2 class="section-title">Transparent <span class="text-accent">Pricing</span></h2>
+      <p class="section-sub">No hidden charges. Pick a plan that fits your business.</p>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <!-- Starter -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <div class="pricing-icon"><i class="fa-solid fa-seedling"></i></div>
+            <h4>Starter Website</h4>
+            <div class="pricing-price"><span class="currency">₹</span>9,999</div>
+            <p class="pricing-desc">Perfect for small businesses & freelancers</p>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-check"></i> Up to 5 Pages</li>
+            <li><i class="fa-solid fa-check"></i> Responsive Design</li>
+            <li><i class="fa-solid fa-check"></i> Contact Form</li>
+            <li><i class="fa-solid fa-check"></i> Basic SEO Setup</li>
+            <li><i class="fa-solid fa-check"></i> Google Maps Integration</li>
+            <li><i class="fa-solid fa-check"></i> 1 Month Free Support</li>
+            <li class="disabled"><i class="fa-solid fa-xmark"></i> Ecommerce Features</li>
+            <li class="disabled"><i class="fa-solid fa-xmark"></i> Custom Animations</li>
+          </ul>
+          <button class="btn-outline-gv w-100 pay-now-btn"
+            data-plan="Starter Website"
+            data-amount="9999"
+            data-desc="Up to 5 Pages, Responsive Design, Basic SEO, 1 Month Support">
+            <i class="fa-solid fa-bolt me-2"></i>Buy Now – ₹9,999
+          </button>
+          <p class="text-center mt-2" style="font-size:0.75rem;color:var(--text-muted)">
+            <i class="fa-solid fa-lock me-1" style="color:var(--accent)"></i>Secure Payment via Razorpay
+          </p>
+        </div>
+      </div>
+      <!-- Business (Popular) -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+        <div class="pricing-card pricing-popular">
+          <div class="popular-badge">Most Popular</div>
+          <div class="pricing-header">
+            <div class="pricing-icon"><i class="fa-solid fa-building-columns"></i></div>
+            <h4>Business Website</h4>
+            <div class="pricing-price"><span class="currency">₹</span>24,999</div>
+            <p class="pricing-desc">Ideal for growing businesses</p>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-check"></i> Up to 15 Pages</li>
+            <li><i class="fa-solid fa-check"></i> Responsive Design</li>
+            <li><i class="fa-solid fa-check"></i> Advanced SEO Setup</li>
+            <li><i class="fa-solid fa-check"></i> CMS Integration</li>
+            <li><i class="fa-solid fa-check"></i> Blog Section</li>
+            <li><i class="fa-solid fa-check"></i> Social Media Integration</li>
+            <li><i class="fa-solid fa-check"></i> Custom Animations</li>
+            <li><i class="fa-solid fa-check"></i> 3 Months Free Support</li>
+          </ul>
+          <button class="btn-primary-gv w-100 pay-now-btn"
+            data-plan="Business Website"
+            data-amount="24999"
+            data-desc="Up to 15 Pages, Advanced SEO, CMS, Custom Animations, 3 Months Support">
+            <i class="fa-solid fa-bolt me-2"></i>Buy Now – ₹24,999
+          </button>
+          <p class="text-center mt-2" style="font-size:0.75rem;color:var(--text-muted)">
+            <i class="fa-solid fa-lock me-1" style="color:var(--accent)"></i>Secure Payment via Razorpay
+          </p>
+        </div>
+      </div>
+      <!-- Premium -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <div class="pricing-icon"><i class="fa-solid fa-crown"></i></div>
+            <h4>Premium Website</h4>
+            <div class="pricing-price"><span class="currency">₹</span>59,999</div>
+            <p class="pricing-desc">Full-scale solution for enterprises</p>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-check"></i> Unlimited Pages</li>
+            <li><i class="fa-solid fa-check"></i> Ecommerce Integration</li>
+            <li><i class="fa-solid fa-check"></i> Payment Gateway</li>
+            <li><i class="fa-solid fa-check"></i> Advanced SEO + Analytics</li>
+            <li><i class="fa-solid fa-check"></i> Custom Admin Panel</li>
+            <li><i class="fa-solid fa-check"></i> Performance Optimization</li>
+            <li><i class="fa-solid fa-check"></i> Security Hardening</li>
+            <li><i class="fa-solid fa-check"></i> 6 Months Free Support</li>
+          </ul>
+          <button class="btn-outline-gv w-100 pay-now-btn"
+            data-plan="Premium Website"
+            data-amount="59999"
+            data-desc="Unlimited Pages, Ecommerce, Payment Gateway, Admin Panel, 6 Months Support">
+            <i class="fa-solid fa-bolt me-2"></i>Buy Now – ₹59,999
+          </button>
+          <p class="text-center mt-2" style="font-size:0.75rem;color:var(--text-muted)">
+            <i class="fa-solid fa-lock me-1" style="color:var(--accent)"></i>Secure Payment via Razorpay
+          </p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-4 section-body" data-aos="fade-up">
+      Need a custom solution? <a href="#contact" class="text-accent fw-600">Contact us</a> for a tailored quote.
+    </p>
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section id="process" class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-tag">How We Work</div>
+      <h2 class="section-title">Our Work <span class="text-accent">Process</span></h2>
+      <p class="section-sub">A clear, transparent process from idea to launch</p>
+    </div>
+    <div class="process-timeline">
+      <div class="process-line"></div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg" data-aos="fade-up" data-aos-delay="0">
+          <div class="process-step">
+            <div class="step-number">01</div>
+            <div class="step-icon"><i class="fa-solid fa-comments"></i></div>
+            <h5>Requirement Discussion</h5>
+            <p>We start with a detailed discovery session to understand your goals, audience, and vision.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg" data-aos="fade-up" data-aos-delay="100">
+          <div class="process-step">
+            <div class="step-number">02</div>
+            <div class="step-icon"><i class="fa-solid fa-pencil-ruler"></i></div>
+            <h5>Design Planning</h5>
+            <p>We create wireframes and mockups for your approval before writing a single line of code.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg" data-aos="fade-up" data-aos-delay="200">
+          <div class="process-step">
+            <div class="step-number">03</div>
+            <div class="step-icon"><i class="fa-solid fa-code"></i></div>
+            <h5>Development</h5>
+            <p>Our team builds your website with clean, efficient code ensuring speed and performance.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg" data-aos="fade-up" data-aos-delay="300">
+          <div class="process-step">
+            <div class="step-number">04</div>
+            <div class="step-icon"><i class="fa-solid fa-vials"></i></div>
+            <h5>Testing</h5>
+            <p>Rigorous cross-browser, cross-device testing ensures a flawless experience everywhere.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg" data-aos="fade-up" data-aos-delay="400">
+          <div class="process-step active">
+            <div class="step-number">05</div>
+            <div class="step-icon"><i class="fa-solid fa-rocket"></i></div>
+            <h5>Delivery & Launch</h5>
+            <p>We deploy your site and provide training, documentation, and ongoing support.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section id="testimonials" class="section-pad section-alt">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-tag">Client Love</div>
+      <h2 class="section-title">What Our Clients <span class="text-accent">Say</span></h2>
+      <p class="section-sub">Real reviews from real clients across India</p>
+    </div>
+    <div class="swiper testimonial-swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+        <!-- Testimonials -->
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"Gaurav delivered exactly what we envisioned — a clean, fast, and modern business website. Our leads increased by 40% in the first month!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">RK</div>
+              <div>
+                <strong>Rahul Kapoor</strong>
+                <span>CEO, Kapoor Tech Solutions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"Our ecommerce store was delivered on time, within budget, and exceeded all our expectations. The design is stunning and sales have tripled!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">PS</div>
+              <div>
+                <strong>Priya Sharma</strong>
+                <span>Founder, LuxeWear Boutique</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"The website redesign transformed our digital presence completely. Gaurav's communication was excellent throughout the entire project."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AM</div>
+              <div>
+                <strong>Amit Mehta</strong>
+                <span>Director, Mehta Healthcare</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"My portfolio website is getting so many compliments! Gaurav understood my creative vision perfectly. Highly recommended for any web project."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SK</div>
+              <div>
+                <strong>Sneha Kulkarni</strong>
+                <span>Freelance UI Designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"Our landing page conversion rate jumped from 2% to 8.5% after GV Web Solutions redesigned it. The ROI speaks for itself!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">VR</div>
+              <div>
+                <strong>Vikram Rao</strong>
+                <span>Marketing Head, StartupHub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BLOG ===== -->
+<section id="blog" class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-tag">Knowledge Hub</div>
+      <h2 class="section-title">Latest from the <span class="text-accent">Blog</span></h2>
+      <p class="section-sub">Tips, insights, and updates from our web development team</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="blog-card">
+          <div class="blog-thumb" style="background: linear-gradient(135deg, #0d1b2a, #1b4965);">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="blog-content">
+            <span class="blog-tag">SEO</span>
+            <h5><a href="#">10 SEO Strategies That Actually Work in 2025</a></h5>
+            <p>Discover the most effective SEO techniques to rank your business website on Google's first page.</p>
+            <div class="blog-meta">
+              <span><i class="fa-solid fa-calendar"></i> Jan 15, 2025</span>
+              <span><i class="fa-solid fa-clock"></i> 5 min read</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="blog-card">
+          <div class="blog-thumb" style="background: linear-gradient(135deg, #1a0533, #5c0099);">
+            <i class="fa-solid fa-mobile-alt"></i>
+          </div>
+          <div class="blog-content">
+            <span class="blog-tag">Design</span>
+            <h5><a href="#">Why Mobile-First Design Is Non-Negotiable in 2025</a></h5>
+            <p>Over 70% of web traffic comes from mobile. Here's why your website must be mobile-first.</p>
+            <div class="blog-meta">
+              <span><i class="fa-solid fa-calendar"></i> Feb 03, 2025</span>
+              <span><i class="fa-solid fa-clock"></i> 4 min read</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="blog-card">
+          <div class="blog-thumb" style="background: linear-gradient(135deg, #003322, #006644);">
+            <i class="fa-solid fa-gauge-high"></i>
+          </div>
+          <div class="blog-content">
+            <span class="blog-tag">Performance</span>
+            <h5><a href="#">How Website Speed Directly Impacts Your Revenue</a></h5>
+            <p>A 1-second delay in load time can cost you 7% in conversions. Learn how to speed up your site.</p>
+            <div class="blog-meta">
+              <span><i class="fa-solid fa-calendar"></i> Mar 10, 2025</span>
+              <span><i class="fa-solid fa-clock"></i> 6 min read</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5" data-aos="fade-up">
+      <a href="#" class="btn-outline-gv">View All Articles <i class="fa-solid fa-arrow-right ms-2"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section-pad section-alt">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-tag">Let's Connect</div>
+      <h2 class="section-title">Start Your <span class="text-accent">Project</span></h2>
+      <p class="section-sub">Fill in the form below and we'll get back to you within 24 hours</p>
+    </div>
+    <div class="row g-5">
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="contact-info">
+          <h4 class="mb-4">Get in Touch</h4>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <strong>Email</strong>
+              <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ee898f9b9c8f98ae8998998b8c9d81829b9a8781809dc08780">[email&#160;protected]</a></span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div>
+              <strong>WhatsApp</strong>
+              <span>+91 98765 43210</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <strong>Location</strong>
+              <span>Delhi, India</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <strong>Working Hours</strong>
+              <span>Mon – Sat: 9 AM – 7 PM IST</span>
+            </div>
+          </div>
+          <!-- Map Embed Placeholder -->
+          <div class="map-placeholder mt-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510154407!2d76.76356069!3d28.6273928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1699000000000"
+              width="100%" height="200" style="border:0; border-radius: 12px;" allowfullscreen loading="lazy">
+            </iframe>
+          </div>
+          <a href="https://wa.me/919876543210?text=Hello%20Gaurav%2C%20I%20want%20to%20discuss%20a%20website%20project." target="_blank" class="whatsapp-btn mt-4 d-flex align-items-center gap-2">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-7" data-aos="fade-left" data-aos-delay="150">
+        <div class="contact-form-wrap">
+          <form id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">Full Name *</label>
+                <input type="text" class="form-control gv-input" placeholder="John Doe" required />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Email Address *</label>
+                <input type="email" class="form-control gv-input" placeholder="john@example.com" required />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Phone Number</label>
+                <input type="tel" class="form-control gv-input" placeholder="+91 98765 43210" />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Project Type *</label>
+                <select class="form-control gv-input" required>
+                  <option value="">Select Project Type</option>
+                  <option>Business Website</option>
+                  <option>Ecommerce Website</option>
+                  <option>Portfolio Website</option>
+                  <option>Landing Page</option>
+                  <option>Website Redesign</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="col-md-12">
+                <label class="form-label">Budget Range</label>
+                <select class="form-control gv-input">
+                  <option value="">Select Your Budget</option>
+                  <option>Under ₹10,000</option>
+                  <option>₹10,000 – ₹25,000</option>
+                  <option>₹25,000 – ₹60,000</option>
+                  <option>₹60,000+</option>
+                  <option>Let's Discuss</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Message *</label>
+                <textarea class="form-control gv-input" rows="5" placeholder="Tell us about your project, goals, and timeline..." required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn-primary-gv btn-lg-gv w-100">
+                  <i class="fa-solid fa-paper-plane me-2"></i> Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+          <div id="formSuccess" class="form-success-msg" style="display:none">
+            <i class="fa-solid fa-circle-check"></i>
+            <strong>Message Sent!</strong>
+            <p>Thank you! We'll get back to you within 24 hours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <a class="navbar-brand mb-3 d-inline-block" href="#home">
+            <span class="brand-icon"><i class="fa-solid fa-code"></i></span>
+            <span class="brand-text">GV <span class="accent">Web</span> Solutions</span>
+          </a>
+          <p class="footer-desc">Professional web development studio by Gaurav Verma. Building high-performance websites that convert visitors into clients.</p>
+          <div class="social-icons mt-4 d-flex gap-3">
+            <a href="#" class="social-icon" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="social-icon" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h6 class="footer-heading">Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h6 class="footer-heading">Services</h6>
+          <ul class="footer-links">
+            <li><a href="#services">Business Website</a></li>
+            <li><a href="#services">Ecommerce</a></li>
+            <li><a href="#services">Portfolio Website</a></li>
+            <li><a href="#services">Landing Page</a></li>
+            <li><a href="#services">Redesign</a></li>
+            <li><a href="#services">SEO Optimization</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h6 class="footer-heading">Newsletter</h6>
+          <p class="footer-desc">Get web tips and updates delivered to your inbox.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="your@email.com" class="gv-input" />
+            <button class="btn-primary-gv">Subscribe</button>
+          </div>
+          <div class="footer-badges mt-4 d-flex flex-wrap gap-2">
+            <span class="footer-badge"><i class="fa-solid fa-shield-halved text-accent"></i> Secure Payments</span>
+            <span class="footer-badge"><i class="fa-solid fa-award text-accent"></i> Certified Dev</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <p class="mb-0">© 2025 <strong>GV Web Solutions</strong>. All rights reserved. Designed by <a href="#" class="text-accent">Gaurav Verma</a>.</p>
+        <div class="footer-legal d-flex gap-4">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== PAYMENT MODAL ===== -->
+<div class="modal fade" id="paymentModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content pay-modal-content">
+
+      <!-- Step 1: Plan Confirm -->
+      <div id="payStep1">
+        <div class="pay-modal-header">
+          <div class="pay-modal-logo">
+            <span class="brand-icon"><i class="fa-solid fa-code"></i></span>
+            <span class="brand-text">GV <span class="accent">Web</span> Solutions</span>
+          </div>
+          <button type="button" class="pay-close-btn" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="pay-modal-body">
+          <div class="row g-0 h-100">
+            <!-- Left Summary -->
+            <div class="col-lg-5 pay-summary-col">
+              <div class="pay-summary">
+                <div class="pay-plan-icon" id="payPlanIcon"><i class="fa-solid fa-seedling"></i></div>
+                <h4 id="payPlanName">Starter Website</h4>
+                <p id="payPlanDesc" class="pay-plan-desc">Plan description here</p>
+                <div class="pay-amount-display">
+                  <span class="pay-currency">₹</span>
+                  <span id="payAmount" class="pay-amount-num">9,999</span>
+                </div>
+                <div class="pay-trust-badges mt-4">
+                  <div class="pay-trust-item"><i class="fa-solid fa-shield-halved"></i> 256-bit SSL Encrypted</div>
+                  <div class="pay-trust-item"><i class="fa-brands fa-cc-visa"></i><i class="fa-brands fa-cc-mastercard"></i><i class="fa-brands fa-cc-amex"></i> Cards Accepted</div>
+                  <div class="pay-trust-item"><i class="fa-solid fa-mobile-alt"></i> UPI / Wallets / NetBanking</div>
+                  <div class="pay-trust-item"><i class="fa-solid fa-rotate-left"></i> Money-back Guarantee</div>
+                </div>
+              </div>
+            </div>
+            <!-- Right Form -->
+            <div class="col-lg-7 pay-form-col">
+              <h5 class="pay-form-title">Your Details</h5>
+              <p class="pay-form-sub">We'll use these details for your project brief and invoice.</p>
+              <div class="pay-form" id="payDetailsForm">
+                <div class="row g-3">
+                  <div class="col-12">
+                    <label class="form-label">Full Name *</label>
+                    <input type="text" class="form-control gv-input" id="payName" placeholder="Rahul Sharma" required />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Email Address *</label>
+                    <input type="email" class="form-control gv-input" id="payEmail" placeholder="rahul@example.com" required />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Phone Number *</label>
+                    <input type="tel" class="form-control gv-input" id="payPhone" placeholder="+91 98765 43210" required />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label">Business Name</label>
+                    <input type="text" class="form-control gv-input" id="payBusiness" placeholder="Your Business Pvt. Ltd." />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label">GST Number <span style="color:var(--text-muted);font-weight:400">(Optional – for GST Invoice)</span></label>
+                    <input type="text" class="form-control gv-input" id="payGst" placeholder="22AAAAA0000A1Z5" />
+                  </div>
+                  <div class="col-12">
+                    <div class="pay-agreement">
+                      <input type="checkbox" id="payAgree" />
+                      <label for="payAgree">I agree to the <a href="#" class="text-accent">Terms of Service</a> and <a href="#" class="text-accent">Refund Policy</a></label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn-primary-gv w-100 btn-lg-gv" id="proceedToPayBtn">
+                      <i class="fa-solid fa-lock me-2"></i> Proceed to Secure Payment
+                    </button>
+                    <p class="pay-secure-note"><i class="fa-solid fa-shield-halved"></i> 100% Secure · UPI · QR · Bank Transfer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2: Payment Method Selection -->
+      <div id="payStep2" style="display:none">
+        <div class="pay-modal-header">
+          <div class="pay-step-title">
+            <button class="pay-back-btn" id="payBackBtn"><i class="fa-solid fa-arrow-left"></i></button>
+            <span>Choose Payment Method</span>
+          </div>
+          <button type="button" class="pay-close-btn" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="pay-method-body">
+          <!-- Order summary strip -->
+          <div class="pay-order-strip">
+            <div class="d-flex align-items-center gap-3">
+              <div class="pay-plan-icon-sm" id="payPlanIconS2"></div>
+              <div>
+                <strong id="payPlanNameS2">—</strong>
+                <span id="payAmountS2" class="pay-strip-amount">—</span>
+              </div>
+            </div>
+            <div class="pay-strip-secure"><i class="fa-solid fa-lock"></i> 100% Secure</div>
+          </div>
+
+          <!-- Method Tabs -->
+          <div class="pay-tabs">
+            <button class="pay-tab active" data-tab="upi"><i class="fa-solid fa-mobile-alt"></i> UPI</button>
+            <button class="pay-tab" data-tab="qr"><i class="fa-solid fa-qrcode"></i> QR Code</button>
+            <button class="pay-tab" data-tab="bank"><i class="fa-solid fa-building-columns"></i> Bank Transfer</button>
+          </div>
+
+          <!-- UPI Tab -->
+          <div class="pay-tab-content active" id="tab-upi">
+            <p class="pay-tab-hint">Enter your UPI ID or pay using your UPI app</p>
+            <div class="upi-input-row">
+              <input type="text" class="form-control gv-input" id="upiIdInput" placeholder="yourname@upi / 9876543210@paytm" />
+              <button class="btn-primary-gv" id="verifyUpiBtn"><i class="fa-solid fa-check me-1"></i>Verify</button>
+            </div>
+            <div id="upiVerifyStatus" class="upi-verify-status" style="display:none"></div>
+            <div class="upi-apps-label">Or open directly in your UPI app:</div>
+            <div class="upi-app-grid">
+              <button class="upi-app-btn" data-app="gpay">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Google_Pay_Logo.svg/512px-Google_Pay_Logo.svg.png" alt="GPay" />
+                <span>Google Pay</span>
+              </button>
+              <button class="upi-app-btn" data-app="phonepe">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/PhonePe_Logo.png/320px-PhonePe_Logo.png" alt="PhonePe" />
+                <span>PhonePe</span>
+              </button>
+              <button class="upi-app-btn" data-app="paytm">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Paytm_Logo_%28standalone%29.svg/512px-Paytm_Logo_%28standalone%29.svg.png" alt="Paytm" />
+                <span>Paytm</span>
+              </button>
+              <button class="upi-app-btn" data-app="bhim">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/BHIM_UPI_Logo.png/320px-BHIM_UPI_Logo.png" alt="BHIM" />
+                <span>BHIM UPI</span>
+              </button>
+            </div>
+            <button class="btn-primary-gv w-100 mt-3" id="payUpiBtn" style="display:none">
+              <i class="fa-solid fa-paper-plane me-2"></i> Send Payment Request
+            </button>
+            <p class="pay-secure-note mt-2"><i class="fa-solid fa-shield-halved"></i> UPI payments are instant & 100% free</p>
+          </div>
+
+          <!-- QR Code Tab -->
+          <div class="pay-tab-content" id="tab-qr">
+            <p class="pay-tab-hint">Scan the QR code using any UPI app — Google Pay, PhonePe, Paytm, BHIM</p>
+            <div class="qr-section">
+              <div class="qr-box">
+                <!-- Replace src with your actual Razorpay/PhonePe/PayTM QR image URL -->
+                <div class="qr-placeholder" id="qrPlaceholder">
+                  <canvas id="qrCanvas" width="180" height="180"></canvas>
+                  <div class="qr-logo-overlay"><i class="fa-solid fa-code"></i></div>
+                </div>
+                <div class="qr-amount-badge">Pay <strong id="qrAmountBadge">₹9,999</strong></div>
+              </div>
+              <div class="qr-details">
+                <div class="qr-detail-item">
+                  <span>UPI ID</span>
+                  <strong id="qrUpiId">gaurav@upi <button class="copy-btn" data-copy="gaurav@upi"><i class="fa-solid fa-copy"></i></button></strong>
+                </div>
+                <div class="qr-detail-item">
+                  <span>Name</span>
+                  <strong>Gaurav Verma</strong>
+                </div>
+                <div class="qr-detail-item">
+                  <span>Amount</span>
+                  <strong id="qrDetailAmount">—</strong>
+                </div>
+              </div>
+              <button class="btn-primary-gv w-100 mt-3" id="qrPaidBtn">
+                <i class="fa-solid fa-check-circle me-2"></i> I Have Paid – Confirm
+              </button>
+              <p class="pay-secure-note mt-2"><i class="fa-solid fa-clock"></i> Payment verified within 5 minutes after scan</p>
+            </div>
+          </div>
+
+          <!-- Bank Transfer Tab -->
+          <div class="pay-tab-content" id="tab-bank">
+            <p class="pay-tab-hint">Transfer directly to our bank account — NEFT / IMPS / RTGS</p>
+            <div class="bank-details-card">
+              <div class="bank-row">
+                <span>Account Name</span>
+                <strong>Gaurav Verma <button class="copy-btn" data-copy="Gaurav Verma"><i class="fa-solid fa-copy"></i></button></strong>
+              </div>
+              <div class="bank-row">
+                <span>Account Number</span>
+                <strong>1234 5678 9012 <button class="copy-btn" data-copy="123456789012"><i class="fa-solid fa-copy"></i></button></strong>
+              </div>
+              <div class="bank-row">
+                <span>IFSC Code</span>
+                <strong>SBIN0001234 <button class="copy-btn" data-copy="SBIN0001234"><i class="fa-solid fa-copy"></i></button></strong>
+              </div>
+              <div class="bank-row">
+                <span>Bank Name</span>
+                <strong>State Bank of India</strong>
+              </div>
+              <div class="bank-row">
+                <span>Account Type</span>
+                <strong>Savings</strong>
+              </div>
+              <div class="bank-row highlight-row">
+                <span>Amount to Pay</span>
+                <strong id="bankAmount" class="text-accent">—</strong>
+              </div>
+            </div>
+            <div class="bank-note">
+              <i class="fa-solid fa-circle-info text-accent"></i>
+              After transferring, click below and share your UTR/reference number so we can confirm quickly.
+            </div>
+            <button class="btn-primary-gv w-100 mt-3" id="bankDoneBtn">
+              <i class="fa-solid fa-check-circle me-2"></i> I've Transferred – Notify Team
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Step 2b: Processing / Confirming -->
+      <div id="payStep2b" style="display:none">
+        <div class="pay-processing">
+          <div class="pay-spinner">
+            <div class="spinner-ring"></div>
+            <div class="spinner-ring ring2"></div>
+          </div>
+          <h4 id="processingMsg">Verifying Payment…</h4>
+          <p>Please do not close this window</p>
+          <div class="pay-progress-bar"><div class="pay-progress-fill" id="payProgressFill"></div></div>
+        </div>
+      </div>
+
+      <!-- Step 3: Success -->
+      <div id="payStep3" style="display:none">
+        <div class="pay-success">
+          <div class="pay-success-icon">
+            <svg viewBox="0 0 52 52" class="checkmark-svg">
+              <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+              <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+            </svg>
+          </div>
+          <h3>Payment Successful!</h3>
+          <p class="pay-success-sub">Thank you for choosing GV Web Solutions. 🎉</p>
+          <div class="pay-receipt" id="payReceipt">
+            <div class="receipt-row"><span>Plan</span><strong id="rcPlan">—</strong></div>
+            <div class="receipt-row"><span>Amount Paid</span><strong id="rcAmount">—</strong></div>
+            <div class="receipt-row"><span>Transaction ID</span><strong id="rcTxn">—</strong></div>
+            <div class="receipt-row"><span>Date</span><strong id="rcDate">—</strong></div>
+            <div class="receipt-row"><span>Status</span><strong class="text-accent">✓ Confirmed</strong></div>
+          </div>
+          <div class="pay-next-steps mt-4">
+            <p class="pay-next-title"><i class="fa-solid fa-list-check text-accent"></i> What happens next?</p>
+            <ul>
+              <li><i class="fa-solid fa-envelope text-accent"></i> Invoice sent to your email within 10 minutes</li>
+              <li><i class="fa-brands fa-whatsapp text-accent"></i> Our team will contact you within 2 hours on WhatsApp</li>
+              <li><i class="fa-solid fa-calendar text-accent"></i> Project kickoff meeting scheduled within 24 hours</li>
+            </ul>
+          </div>
+          <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
+            <button class="btn-primary-gv" onclick="window.print()"><i class="fa-solid fa-print me-2"></i>Print Receipt</button>
+            <button class="btn-outline-gv" data-bs-dismiss="modal"><i class="fa-solid fa-home me-2"></i>Back to Home</button>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.modal-content -->
+  </div>
+</div>
+<!-- /PAYMENT MODAL -->
+
+<!-- ===== STICKY WHATSAPP BUTTON ===== -->
+<a href="https://wa.me/919876543210?text=Hello%20Gaurav%2C%20I%20want%20to%20discuss%20a%20website%20project." target="_blank" class="whatsapp-sticky" title="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+  <span class="wa-tooltip">Chat with us!</span>
+</a>
+
+<!-- ===== SCROLL TO TOP ===== -->
+<button class="scroll-top-btn" id="scrollTopBtn" title="Back to Top">
+  <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+<!-- ===== PRELOADER ===== -->
+<div id="preloader">
+  <div class="preloader-inner">
+    <div class="preloader-logo"><i class="fa-solid fa-code"></i></div>
+    <div class="preloader-bar"><div class="preloader-fill"></div></div>
+  </div>
+</div>
+
+<!-- Bootstrap 5 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<!-- Swiper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Razorpay -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<!-- Main JS -->
+<script src="script.js"></script>
+<!-- Payment JS -->
+<script src="payment.js"></script>
+</body>
+</html>
